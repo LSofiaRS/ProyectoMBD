@@ -78,7 +78,7 @@ ALTER TABLE public.trafico OWNER TO postgres;
 -- DROP TABLE IF EXISTS public.categoria_vehicular CASCADE;
 CREATE TABLE public.categoria_vehicular (
 	id_categoria serial NOT NULL,
-	categoria varchar(5) NOT NULL,
+	categoria varchar(8) NOT NULL,
 	CONSTRAINT "Categoria_vehicular_pk" PRIMARY KEY (id_categoria)
 
 );
