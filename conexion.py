@@ -11,7 +11,7 @@ try:
 
     sql1 = """ select * from categoria_vehicular; """
     sql2 = """ select * from peaje; """
-    sql3 = """ select * from tarifas; """
+    sql3 = """ select * from tarifa; """
     sql4 = """ select * from recaudo; """
     sql5 = """ select * from trafico; """
     
